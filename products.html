@@ -8,54 +8,98 @@
       font-family: Arial, sans-serif;
       background-color: #f4fbfc;
       color: #1a3b3f;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
     }
     h1, h2 {
       font-family: 'Georgia', serif;
       color: #004d4d;
+      margin-bottom: 15px;
+    }
+    h1 {
+      font-size: 32px;
+      text-decoration: underline;
+      font-style: italic;
+      margin-top: 20px;
     }
     p {
       font-size: 16px;
       font-family: 'Verdana', sans-serif;
+      line-height: 1.6;
     }
     a {
       color: #006060;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     .highlight {
       color: #990000;
       font-style: italic;
     }
+    img {
+      margin: 20px 0;
+      max-width: 100%;
+      height: auto;
+    }
+    ul, ol {
+      text-align: left;
+      margin: 0 auto 20px auto;
+      display: inline-block;
+      text-align: left;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
 
-  <h1><u><i>Explore Eloheh's Innovative Health Products</i></u></h1>
+  <div class="container">
+    <h1>Explore Eloheh's Innovative Health Products</h1>
 
-  <img src="DBFiles/wearabledevices.jpg" 
-       alt="Wearable Devices by Eloheh" width="550">
+    <img src="DBFiles/wearabledevices.jpg" 
+         alt="Wearable Devices by Eloheh" width="550">
 
-  <p><b>At Eloheh Health</b>, we are proud to offer products that bring healthcare closer to home and <span class="highlight">empower patients</span> through smart, accessible technology.</p>
+    <p><strong>At Eloheh Health</strong>, we are proud to offer products that bring healthcare closer to home and <span class="highlight">empower patients</span> through smart, accessible technology.</p>
 
-  <h2>Our Featured Products</h2>
-  <ul>
-    <li><b>VitalTrack Wearable:</b> A sleek device that monitors heart rate, blood pressure, and oxygen levels in real time.</li>
-    <li><b>Eloheh Health App:</b> Connect with doctors, view health stats, and get personalized wellness tips on your phone.</li>
-    <li><b>Telehealth Kiosk:</b> A portable unit for remote consultations in rural or underserved communities.</li>
-  </ul>
+    <h2>Our Featured Products</h2>
+    <ul>
+      <li><strong>VitalTrack Wearable:</strong> A sleek device that monitors heart rate, blood pressure, and oxygen levels in real time.</li>
+      <li><strong>Eloheh Health App:</strong> Connect with doctors, view health stats, and get personalized wellness tips on your phone.</li>
+      <li><strong>Telehealth Kiosk:</strong> A portable unit for remote consultations in rural or underserved communities.</li>
+    </ul>
 
-  <h2>Why Our Products Stand Out</h2>
-  <ol>
-    <li>Built with input from <i>licensed physicians</i> and technology experts.</li>
-    <li>Support for <u>multi-language interfaces</u> to ensure inclusivity.</li>
-    <li>Designed for easy integration with existing health records and platforms.</li>
-  </ol>
+    <h2>Why Our Products Stand Out</h2>
+    <ol>
+      <li>Built with input from <i>licensed physicians</i> and technology experts.</li>
+      <li>Support for <u>multi-language interfaces</u> to ensure inclusivity.</li>
+      <li>Designed for easy integration with existing health records and platforms.</li>
+    </ol>
 
-  <p>Learn more about trends in health tech at <a href="https://www.mobihealthnews.com/" target="_blank">MobiHealthNews</a>.</p>
+    <p>Learn more about trends in health tech at <a href="https://www.mobihealthnews.com/" target="_blank">MobiHealthNews</a>.</p>
 
-  <p>Download our product brochure here: <a href="DBFiles/Eloheh Products Brochure.pdf" download>Eloheh Product PDF</a></p>
+    <p>Download our product brochure here: <a href="DBFiles/Eloheh Products Brochure.pdf" download>Eloheh Product PDF</a></p>
 
-  <p><a href="mailto:products@eloheh.com">Contact Me</a> — Products Page by Nayan</p>
+    <p><a href="mailto:products@eloheh.com">Contact Me</a> — Products Page by Nayan</p>
 
-  <p><small>Last modified: <script>document.write(new Date(document.lastModified));</script></small></p>
+    <footer>
+      <p><small>Last modified: <script>document.write(new Date(document.lastModified));</script></small></p>
+    </footer>
+  </div>
 
 </body>
 </html>
