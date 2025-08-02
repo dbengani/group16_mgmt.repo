@@ -2,18 +2,57 @@
 <html>
 <head>
   <title>Navigation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4fbfc;
+      color: #1a3b3f;
+      margin: 0;
+      padding: 20px;
+    }
+    h2 {
+      font-family: 'Georgia', serif;
+      color: #004d4d;
+      margin-bottom: 15px;
+      font-size: 24px;
+      text-align: center;
+      text-decoration: underline;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    a {
+      color: #006060;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 12px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <h3>Navigation</h3>
+  <h2>Navigation</h2>
   <ul>
+    <li><a href="frame_b.html" target="showframe">Team Home Page</a></li>
     <li><a href="management.html" target="showframe">Management</a></li>
     <li><a href="products.html" target="showframe">Products</a></li>
     <li><a href="services.html" target="showframe">Services</a></li>
     <li><a href="storyandhistory.html" target="showframe">Story & History</a></li>
   </ul>
-  <hr>
-  <p>Last Modified: 
+
+  <div class="footer">
+    Last Modified: 
     <script>document.write(document.lastModified);</script>
-  </p>
+  </div>
 </body>
 </html>
