@@ -1,56 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Eloheh - Company Story and History</title>
+  <meta charset="UTF-8">
+  <title>Our Story & History | Eloheh Health</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
       background-color: #f4fbfc;
+      color: #1a3b3f;
       margin: 0;
       padding: 0;
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
     }
     .container {
       max-width: 800px;
-      text-align: center;
+      margin: 0 auto;
       padding: 20px;
+      text-align: center;
+    }
+    h1, h2 {
+      font-family: 'Georgia', serif;
+      color: #004d4d;
+      margin-bottom: 15px;
     }
     h1 {
-      color: #004d40;
+      font-size: 32px;
+      text-decoration: underline;
+      font-style: italic;
+      margin-top: 20px;
     }
-    p, li {
-      font-size: 1.1em;
-      color: #2a3d45;
+    p {
+      font-size: 16px;
+      font-family: 'Verdana', sans-serif;
+      line-height: 1.6;
     }
     a {
-      color: #007272;
+      color: #006060;
+      text-decoration: none;
     }
-    ol, ul {
+    a:hover {
+      text-decoration: underline;
+    }
+    .highlight {
+      color: #990000;
+      font-style: italic;
+    }
+    img {
+      margin: 20px 0;
+      max-width: 100%;
+      height: auto;
+    }
+    ul, ol {
       text-align: left;
+      margin: 0 auto 20px auto;
+      display: inline-block;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h1><b>Eloheh: A Journey Toward Better Healthcare</b></h1>
+    <h1>Eloheh: A Journey Toward Better Healthcare</h1>
 
-    <p>Founded in <b>2012</b>, <i>Eloheh</i> started as a mission-driven company focused on making <u>healthcare products and services</u> more accessible to those in rural areas, as well as any underserved community.</p>
+    <p>Founded in <strong>2012</strong>, <span class="highlight">Eloheh</span> began with a vision to bring accessible, meaningful care to underserved and rural communities across the U.S.</p>
 
-    <p style="color: #00695c;">The company began with natural wellness kits and remote consultations, and has since expanded into chronic care, digital monitoring, and preventive solutions.</p>
+    <p style="color:#00695c;">What started with natural wellness kits and remote consultations has grown into chronic care programs, digital platforms, and scalable health education.</p>
 
     <img src="DBFiles/eloheh_logo.png" alt="Eloheh Healthcare Logo" width="200">
 
-    <h2><u>Major Milestones</u></h2>
+    <h2>Major Milestones</h2>
     <ol>
       <li>2012: Founded in Indianapolis, IN</li>
       <li>2015: Launched wellness product line</li>
       <li>2018: Introduced telehealth services</li>
       <li>2021: Partnered with 30+ rural clinics</li>
-      <li>2024: Rolled out EloCare platform</li>
+      <li>2024: Rolled out EloCare digital platform</li>
     </ol>
 
     <h2>Our Focus Areas</h2>
@@ -61,15 +93,15 @@
       <li>Health Education Programs</li>
     </ul>
 
-    <p>Learn more about how digital healthcare is transforming communities: 
-      <a href="https://www.who.int/health-topics/digital-health#tab=tab_1" target="_blank">WHO on Digital Health</a>
-    </p>
+    <p>Learn more from the WHO: <a href="https://www.who.int/health-topics/digital-health#tab=tab_1" target="_blank">Digital Health Overview</a></p>
 
     <p><a href="Eloheh Company Overview.pdf" download>Download Our Company Overview (PDF)</a></p>
 
-    <p><i>Last updated: <script>document.write(document.lastModified);</script></i></p>
+    <p><a href="mailto:info@eloheh.com">Contact Me</a> — Company Story and History Page by Oscar</p>
 
-    <p><a href="mailto:info@eloheh.com">Contact Me</a> — Company Story and History page by Oscar</p>
+    <footer>
+      <p><small>Last modified: <script>document.write(new Date(document.lastModified));</script></small></p>
+    </footer>
   </div>
 
 </body>
